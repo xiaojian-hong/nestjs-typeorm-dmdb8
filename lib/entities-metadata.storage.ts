@@ -1,4 +1,4 @@
-import { Connection, ConnectionOptions } from 'typeorm';
+import { Connection, ConnectionOptions } from 'typeorm-dmdb8';
 import { EntityClassOrSchema } from './interfaces/entity-class-or-schema.type';
 
 type ConnectionToken = Connection | ConnectionOptions | string;

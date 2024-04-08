@@ -1,4 +1,4 @@
-import { EntitySchema } from 'typeorm';
+import { EntitySchema } from 'typeorm-dmdb8';
 import { Photo } from '../photo.entity';
 
 export const PhotoWithoutTargetSchema = new EntitySchema<Photo>({

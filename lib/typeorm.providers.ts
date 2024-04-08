@@ -4,7 +4,7 @@ import {
   Connection,
   ConnectionOptions,
   Repository,
-} from 'typeorm';
+} from 'typeorm-dmdb8';
 import { getConnectionToken, getRepositoryToken } from './common/typeorm.utils';
 import { EntityClassOrSchema } from './interfaces/entity-class-or-schema.type';
 

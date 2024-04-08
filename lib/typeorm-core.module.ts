@@ -15,7 +15,7 @@ import {
   ConnectionOptions,
   createConnection,
   getConnectionManager,
-} from 'typeorm';
+} from 'typeorm-dmdb8';
 import {
   generateString,
   getConnectionName,

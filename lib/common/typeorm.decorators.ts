@@ -1,5 +1,5 @@
 import { Inject } from '@nestjs/common';
-import { Connection, ConnectionOptions } from 'typeorm';
+import { Connection, ConnectionOptions } from 'typeorm-dmdb8';
 import { EntityClassOrSchema } from '../interfaces/entity-class-or-schema.type';
 import { DEFAULT_CONNECTION_NAME } from '../typeorm.constants';
 import {

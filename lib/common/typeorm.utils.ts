@@ -8,7 +8,7 @@ import {
   EntityManager,
   EntitySchema,
   Repository,
-} from 'typeorm';
+} from 'typeorm-dmdb8';
 import { isNullOrUndefined } from 'util';
 import { v4 as uuid } from 'uuid';
 import { CircularDependencyException } from '../exceptions/circular-dependency.exception';
