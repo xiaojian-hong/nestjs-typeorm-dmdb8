@@ -1,5 +1,5 @@
 import { DynamicModule, Module } from '@nestjs/common';
-import { Connection, ConnectionOptions } from 'typeorm-dmdb8';
+import { Connection, ConnectionOptions } from 'typeorm-dm8';
 import { EntitiesMetadataStorage } from './entities-metadata.storage';
 import { getCustomRepositoryEntity } from './helpers/get-custom-repository-entity';
 import { EntityClassOrSchema } from './interfaces/entity-class-or-schema.type';

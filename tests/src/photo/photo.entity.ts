@@ -1,4 +1,4 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm-dmdb8';
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm-dm8';
 
 @Entity()
 export class Photo {

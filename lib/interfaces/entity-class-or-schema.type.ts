@@ -1,3 +1,3 @@
-import { EntitySchema } from 'typeorm-dmdb8';
+import { EntitySchema } from 'typeorm-dm8';
 
 export type EntityClassOrSchema = Function | EntitySchema;

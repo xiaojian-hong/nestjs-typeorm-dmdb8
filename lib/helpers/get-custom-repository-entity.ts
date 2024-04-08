@@ -2,7 +2,7 @@ import {
   AbstractRepository,
   getMetadataArgsStorage,
   Repository,
-} from 'typeorm-dmdb8';
+} from 'typeorm-dm8';
 import { EntityClassOrSchema } from '../interfaces/entity-class-or-schema.type';
 
 export function getCustomRepositoryEntity(

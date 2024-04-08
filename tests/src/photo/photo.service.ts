@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Repository } from 'typeorm-dmdb8';
+import { Repository } from 'typeorm-dm8';
 import { InjectRepository } from '../../../lib';
 import { Photo } from './photo.entity';
 import { CustomPhotoRepository } from './photo.repository';

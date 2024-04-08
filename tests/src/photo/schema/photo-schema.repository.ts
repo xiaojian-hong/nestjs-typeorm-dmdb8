@@ -1,4 +1,4 @@
-import { EntityRepository, Repository } from 'typeorm-dmdb8';
+import { EntityRepository, Repository } from 'typeorm-dm8';
 import { Photo } from '../photo.entity';
 import { PhotoSchema } from './photo.schema';
 
