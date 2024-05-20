@@ -111,7 +111,7 @@ export class TypeOrmCoreModule implements OnApplicationShutdown {
     );
     try {
       connection && (await connection.close());
-    } catch (e) {
+    } catch (e: any) {
       this.logger.error(e?.message);
     }
   }
@@ -166,7 +166,7 @@ export class TypeOrmCoreModule implements OnApplicationShutdown {
 
   private static async createConnectionFactory(
     options: TypeOrmModuleOptions,
-  ): Promise<Connection> {
+  ): Promise<Connection | undefined> {
     try {
       if (options.keepConnectionAlive) {
         const connectionName = getConnectionName(options as ConnectionOptions);
